@@ -303,7 +303,7 @@ html {
     position: absolute;
     right: 0;
     bottom: 0;
-    padding: 20px;
+    /*padding: 20px;*/
     transform: rotate(180deg);
     writing-mode: vertical-rl;
     text-orientation: mixed;
@@ -312,6 +312,7 @@ html {
     opacity: 0;
     /* transform: translateX(-100%); */
     animation: left-to-right 1.5s forwards;
+    padding: 12px;
 }
 
 .copyright {
